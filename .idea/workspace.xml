@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21939a56-159b-4501-b238-ce2179c29c2c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/FriendRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/FriendRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/FriendRequestStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/Friendship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/ReplyMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/Tuple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/validators/FriendRequestValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/validators/FriendshipValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/validators/MessageValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/validators/UserValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/validators/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/validators/ValidationExceptionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/validators/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/utils/events/AbstractEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/utils/events/ChangeEventType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/utils/events/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/utils/events/UserChangeEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/utils/observer/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/utils/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/utils/statics/Statics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/hello-view.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2ZaqKeUMKZPpMLRfnJkHvToRt4H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "F:/Facultate/AN2/SEM1/InterNexa/src/main/java/socialnetwork",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Facultate\AN2\SEM1\InterNexa\src\main\java\socialnetwork" />
+      <recent name="F:\Facultate\AN2\SEM1\InterNexa\src\main\java\socialnetwork\domain\validators" />
+      <recent name="F:\Facultate\AN2\SEM1\InterNexa\src\main\java\socialnetwork\domain" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21939a56-159b-4501-b238-ce2179c29c2c" name="Changes" comment="" />
+      <created>1702670476895</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702670476895</updated>
+      <workItem from="1702670477989" duration="407000" />
+      <workItem from="1702670902539" duration="2265000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
