@@ -4,46 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21939a56-159b-4501-b238-ce2179c29c2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/FriendRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/FriendRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/FriendRequestStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/Friendship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/ReplyMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/Tuple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/validators/FriendRequestValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/validators/FriendshipValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/validators/MessageValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/validators/UserValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/validators/ValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/validators/ValidationExceptionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/validators/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/utils/events/AbstractEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/utils/events/ChangeEventType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/utils/events/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/utils/events/UserChangeEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/utils/observer/Observable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/utils/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/utils/statics/Statics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/hello-view.fxml" afterDir="false" />
+    <list default="true" id="21939a56-159b-4501-b238-ce2179c29c2c" name="Changes" comment="init commit - domain &amp; utils">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/repository/RepositoryException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/repository/db/FriendRequestsDBRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/repository/db/FriendshipDBRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/repository/db/MessagesDBRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/repository/db/UserDBRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/repository/db/paging/FriendRequestDBPagingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/repository/db/paging/FriendshipDBPagingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/repository/db/paging/MessagesDBPagingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/repository/db/paging/UserDBPagingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/repository/paging/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/repository/paging/PageImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/repository/paging/Pageable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/repository/paging/PageableImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/repository/paging/PagingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/FriendRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/FriendRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +66,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "F:/Facultate/AN2/SEM1/InterNexa/src/main/java/socialnetwork",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -91,6 +74,11 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -99,6 +87,22 @@
       <recent name="F:\Facultate\AN2\SEM1\InterNexa\src\main\java\socialnetwork\domain\validators" />
       <recent name="F:\Facultate\AN2\SEM1\InterNexa\src\main\java\socialnetwork\domain" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="socialnetwork.HelloApplication" />
+      <module name="InterNexa.main" />
+      <option name="PROGRAM_PARAMETERS" value="jdbc:postgresql://localhost:5432/InterNexa postgres FFTth2yv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="socialnetwork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -109,11 +113,25 @@
       <option name="presentableId" value="Default" />
       <updated>1702670476895</updated>
       <workItem from="1702670477989" duration="407000" />
-      <workItem from="1702670902539" duration="2265000" />
+      <workItem from="1702670902539" duration="3313000" />
+      <workItem from="1702721751075" duration="7605000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit - domain &amp; utils">
+      <option name="closed" value="true" />
+      <created>1702673340354</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702673340354</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit - domain &amp; utils" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit - domain &amp; utils" />
   </component>
 </project>

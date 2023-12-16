@@ -21,6 +21,16 @@ public class User extends Entity<Long> {
         this.password = password;
     }
 
+
+    public User(Long id, String firstName, String lastName, String username, String email, String password) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.username = username;
+        this.email = email;
+        this.password = password;
+        setId(id);
+    }
+
     /**
      * @return String - first name of the user
      */
