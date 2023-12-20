@@ -2,7 +2,6 @@ package socialnetwork.repository.paging;
 
 
 public record PageableImplementation(int pageNumber, int pageSize) implements Pageable {
-
 }
 
 //public class PageableImplementation implements Pageable {
