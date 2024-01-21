@@ -1,4 +1,4 @@
-module socialnetwork.internexa {
+module socialnetwork {
     requires javafx.controls;
     requires javafx.fxml;
 
@@ -7,8 +7,13 @@ module socialnetwork.internexa {
     requires org.kordamp.bootstrapfx.core;
     requires java.sql;
 
-    opens socialnetwork to javafx.fxml;
-    exports socialnetwork;
+    opens socialnetwork.gui to javafx.fxml;
+    exports socialnetwork.gui;
+
+    exports  socialnetwork.service;
+    exports  socialnetwork.domain;
+    exports  socialnetwork.domain.validators;
+    exports  socialnetwork.repository;
 
 
 }

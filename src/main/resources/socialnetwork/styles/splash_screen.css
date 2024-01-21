@@ -1,0 +1,18 @@
+.main_label {
+    -fx-font-family: Consolas;
+    -fx-font-size: 72px;
+    -fx-alignment: center;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.loading_label {
+    -fx-font-family: Consolas;
+    -fx-font-size: 40px;
+    -fx-alignment: center;
+    -fx-text-fill: white;
+}
+
+.background {
+    -fx-background-color: linear-gradient(to left bottom, #021634, #2d1946, #581149, #7e003c, #981022);
+}

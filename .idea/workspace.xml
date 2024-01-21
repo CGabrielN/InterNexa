@@ -4,15 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21939a56-159b-4501-b238-ce2179c29c2c" name="Changes" comment="added the repo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/service/FriendRequestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/service/FriendshipService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/service/MasterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/service/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84a9e411-9586-41d1-94fa-62f726e47982.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/84a9e411-9586-41d1-94fa-62f726e47982.xml" afterDir="false" />
+    <list default="true" id="21939a56-159b-4501-b238-ce2179c29c2c" name="Changes" comment="added the service + refactor">
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/gui/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/gui/MainWindowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/gui/MessageAlert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/gui/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/gui/SplashScreenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/gui/StartApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/gui/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/gui/WindowManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/images/Background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/images/closed_eye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/images/open_eye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/styles/chat_window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/styles/login_window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/styles/register_window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/styles/splash_screen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/styles/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/views/login-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/views/main-window-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/views/register-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/views/splash-screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/socialnetwork/repository/paging/PageableImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/repository/paging/PageableImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/socialnetwork/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/socialnetwork/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/socialnetwork/utils/statics/Statics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/utils/statics/Statics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/socialnetwork/hello-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +48,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -54,12 +77,13 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Facultate/AN2/SEM1/InterNexa/src/main/java/socialnetwork/service&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Facultate/AN2/SEM1/InterNexa/src/main/resources/socialnetwork/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -70,20 +94,31 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Facultate\AN2\SEM1\InterNexa\src\main\resources\socialnetwork\images" />
+      <recent name="F:\Facultate\AN2\SEM1\InterNexa\src\main\resources\socialnetwork\styles" />
       <recent name="F:\Facultate\AN2\SEM1\InterNexa\src\main\java\socialnetwork\service" />
       <recent name="F:\Facultate\AN2\SEM1\InterNexa\src\main\java\socialnetwork" />
       <recent name="F:\Facultate\AN2\SEM1\InterNexa\src\main\java\socialnetwork\domain\validators" />
-      <recent name="F:\Facultate\AN2\SEM1\InterNexa\src\main\java\socialnetwork\domain" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Facultate\AN2\SEM1\InterNexa\src\main\resources\socialnetwork\images" />
+      <recent name="F:\Facultate\AN2\SEM1\InterNexa\src\main\resources\socialnetwork" />
+      <recent name="F:\Facultate\AN2\SEM1\InterNexa\src\main\resources\" />
+      <recent name="F:\Facultate\AN2\SEM1\InterNexa\src\main\resources\socialnetwork\" />
+      <recent name="F:\Facultate\AN2\SEM1\InterNexa\src\main\resources\socialnetwork\gui" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="socialnetwork.gui" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="socialnetwork.HelloApplication" />
+    <configuration name="StartApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="socialnetwork.gui.StartApplication" />
       <module name="InterNexa.main" />
       <option name="PROGRAM_PARAMETERS" value="jdbc:postgresql://localhost:5432/InterNexa postgres FFTth2yv" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="socialnetwork.*" />
+          <option name="PATTERN" value="socialnetwork.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,6 +126,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StartApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -108,7 +148,21 @@
       <workItem from="1702852874937" duration="256000" />
       <workItem from="1702917131506" duration="23000" />
       <workItem from="1702997820329" duration="1232000" />
-      <workItem from="1703077226648" duration="3001000" />
+      <workItem from="1703077226648" duration="3043000" />
+      <workItem from="1703423635545" duration="11390000" />
+      <workItem from="1703509143202" duration="984000" />
+      <workItem from="1704391657495" duration="7562000" />
+      <workItem from="1704722224385" duration="85000" />
+      <workItem from="1704722354671" duration="156000" />
+      <workItem from="1704723416708" duration="57000" />
+      <workItem from="1704723520925" duration="37000" />
+      <workItem from="1704724435315" duration="1874000" />
+      <workItem from="1704727305715" duration="32000" />
+      <workItem from="1704810166524" duration="1161000" />
+      <workItem from="1704816991886" duration="598000" />
+      <workItem from="1704891186143" duration="680000" />
+      <workItem from="1705524082322" duration="3702000" />
+      <workItem from="1705846801558" duration="9098000" />
     </task>
     <task id="LOCAL-00001" summary="init commit - domain &amp; utils">
       <option name="closed" value="true" />
@@ -126,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702731348804</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added the service + refactor">
+      <option name="closed" value="true" />
+      <created>1703082737826</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703082737826</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +197,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit - domain &amp; utils" />
     <MESSAGE value="added the repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the repo" />
+    <MESSAGE value="added the service + refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the service + refactor" />
   </component>
 </project>
