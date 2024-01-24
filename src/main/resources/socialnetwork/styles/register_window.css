@@ -1,10 +1,11 @@
 .button {
-    -fx-font-size: 15px;
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
     -fx-background-color: #007bff;
     -fx-text-fill: #fff;
     -fx-border-radius: 4px;
     -fx-alignment: CENTER;
-    -fx-font-family: "Arial";
+    -fx-font-family: Consolas;
     -fx-border-color: transparent;
 }
 
@@ -12,30 +13,39 @@
     -fx-background-color: #0056b3;
 }
 
-
 .text-field {
-    -fx-font-size: 16px;
-    -fx-padding: 8px;
-    -fx-prompt-text-fill: #7c7c7c;
-    -fx-background-color: #f9f9f9;
-    -fx-border-color: #ccc;
-    -fx-border-radius: 4px;
+    -fx-font-size: 20px;
+    -fx-prompt-text-fill: #525151;
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #a3a3a3 transparent;
+    -fx-border-width: 0 0 3 0;
+    -fx-text-fill: #2a2a2a;
 }
 
 .text-field:focused {
     -fx-border-color: #007bff;
-    -fx-background-color: #fff;
+    -fx-background-color: white;
 }
 
-.text-field .text {
-    -fx-fill: #333;
-}
-
-.label {
-    -fx-font-size: 14px;
+.label_main {
+    -fx-font-size: 40px;
     -fx-padding: 8px 8px;
-    -fx-background-color: #f5f5f5;
+    -fx-background-color: white;
     -fx-text-fill: #333;
-    -fx-font-family: "Arial";
+    -fx-font-family: Consolas;
+    -fx-alignment: center;
 }
+
+.hyperlink {
+    -fx-font-family: Consolas;
+    -fx-font-size: 22px;
+    -fx-padding: 3px 10px;
+    -fx-wrap-text: true;
+    -fx-text-overrun: ellipsis;
+    -fx-text-alignment: center;
+}
+#widgetRegisterBackground{
+    -fx-background-color: white;
+}
+
 

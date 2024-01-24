@@ -60,12 +60,16 @@
     -fx-font-family: Consolas;
 }
 
+#middleBackground{
+    -fx-background-color: transparent;
+}
+
 #forgotPasswordLink{
     -fx-font-family: Consolas;
     -fx-font-size: 18px;
 }
 
-#widgetsBackground{
+#widgetsLoginBackground{
     -fx-background-color: white;
 }
 
@@ -79,4 +83,8 @@
     -fx-background-image: url("../images/Background.png");
     -fx-background-size: cover;
     -fx-background-repeat: no-repeat;
+}
+
+.whatever{
+    -fx-border-color: #f11a1a;
 }

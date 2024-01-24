@@ -10,6 +10,7 @@ import socialnetwork.domain.User;
 import socialnetwork.service.MasterService;
 
 import java.io.IOException;
+import java.util.Optional;
 
 public class WindowManager {
 
@@ -31,12 +32,6 @@ public class WindowManager {
 
     private Tuple<RegisterController, Scene> register;
 
-//    private LoginController loginController;
-//    private Scene loginScene;
-//
-//    private RegisterController registerController;
-//    private Scene registerScene;
-
 
     public void setData(Stage stage, MasterService service) {
         this.stage = stage;
@@ -44,28 +39,12 @@ public class WindowManager {
         this.currentUser = null;
     }
 
-
     public void showLoginWindow(){
-//        try{
-//            FXMLLoader loader = new FXMLLoader();
-//            loader.setLocation(getClass().getResource("/socialnetwork/views/login-view.fxml"));
-//            AnchorPane root = loader.load();
-//            Scene loginScene = new Scene(root);
-//            stage.setScene(loginScene);
-//            if(this.loginController == null){
-//                this.loginController = loader.getController();
-//                this.loginController.setData(service, stage);
-//            }
-//            this.loginController.show();
-//        } catch (IOException e) {
-//            MessageAlert.showErrorMessage(null, e.getMessage());
-//        }
         if(this.login == null)
             this.login = new Tuple<>(null, null);
 
         var res = this.showWindow("/socialnetwork/views/login-view.fxml", this.login.getLeft(), this.login.getRight());
         this.login = new Tuple<>((LoginController) res.getLeft(), res.getRight());
-
     }
 
     public void hideLoginWindow() {
@@ -74,21 +53,10 @@ public class WindowManager {
         }
     }
 
-    public void showRegisterWindow(){
-//        try{
-//            FXMLLoader loader = new FXMLLoader();
-//            loader.setLocation(getClass().getResource("/socialnetwork/views/register-view.fxml"));
-//            AnchorPane root = loader.load();
-//            Scene registerScene = new Scene(root);
-//            stage.setScene(registerScene);
-//            if(this.registerController == null){
-//                this.registerController = loader.getController();
-//                this.registerController.setData(service, stage);
-//            }
-//            this.registerController.show();
-//        } catch (IOException e) {
-//            MessageAlert.showErrorMessage(null, e.getMessage());
-//        }
+    public void showRegisterWindow(User... loggedUser){
+        if(this.currentUser == null)
+            this.currentUser = loggedUser[0];
+
         if(this.register == null)
             this.register = new Tuple<>(null, null);
 
@@ -147,7 +115,4 @@ public class WindowManager {
             MessageAlert.showErrorMessage(null, e.getMessage());
         }
     }
-
-
-
 }

@@ -1,6 +1,7 @@
 package socialnetwork.service;
 
 import socialnetwork.domain.User;
+import socialnetwork.domain.validators.UserValidator;
 import socialnetwork.domain.validators.Validator;
 import socialnetwork.repository.RepositoryException;
 import socialnetwork.repository.db.paging.UserDBPagingRepository;
@@ -10,12 +11,19 @@ import java.util.Optional;
 public class UserService {
 
     private final UserDBPagingRepository userDBPagingRepository;
-    private final Validator<User> validator;
+    private final UserValidator validator;
 
-    public UserService(UserDBPagingRepository userDBPagingRepository, Validator<User> validator) {
+    public UserService(UserDBPagingRepository userDBPagingRepository, UserValidator validator) {
         this.userDBPagingRepository = userDBPagingRepository;
         this.validator = validator;
     }
+
+    public Optional<User> createAccount(String username, String email, String password, String confirmPassword){
+        User user = new User(null, null, username, email, password);
+        validator.validate(user, confirmPassword);
+        return this.userDBPagingRepository.save(user);
+    }
+
 
     /**
      * Coordinates the addition of a user into the app

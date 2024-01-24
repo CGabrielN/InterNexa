@@ -67,6 +67,10 @@ public class MasterService implements Observable<Event> {
         return this.userService.tryLogin(email, password);
     }
 
+    public Optional<User> createAccount(String username, String email, String password, String confirmPassword){
+        return this.userService.createAccount(username, email, password, confirmPassword);
+    }
+
     public Optional<User> addUser(String firstName, String lastName, String username, String email, String password) {
         var user = this.userService.addUser(firstName, lastName, username, email, password);
 

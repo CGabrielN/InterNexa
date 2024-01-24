@@ -4,35 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21939a56-159b-4501-b238-ce2179c29c2c" name="Changes" comment="added the service + refactor">
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/gui/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/gui/MainWindowController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/gui/MessageAlert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/gui/RegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/gui/SplashScreenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/gui/StartApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/gui/Window.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/gui/WindowManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/images/Background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/images/closed_eye.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/images/open_eye.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/styles/chat_window.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/styles/login_window.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/styles/register_window.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/styles/splash_screen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/styles/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/views/login-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/views/main-window-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/views/register-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/views/splash-screen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="21939a56-159b-4501-b238-ce2179c29c2c" name="Changes" comment="splash-screen and login window initial design and functionality">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/images/close.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/socialnetwork/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/socialnetwork/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/socialnetwork/utils/statics/Statics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/utils/statics/Statics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/socialnetwork/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/validators/UserValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/domain/validators/UserValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/socialnetwork/gui/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/gui/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/socialnetwork/gui/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/gui/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/socialnetwork/gui/WindowManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/gui/WindowManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/socialnetwork/service/MasterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/service/MasterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/socialnetwork/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/socialnetwork/styles/login_window.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/styles/login_window.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/socialnetwork/styles/register_window.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/styles/register_window.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/socialnetwork/views/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/socialnetwork/views/login-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +66,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -162,7 +146,11 @@
       <workItem from="1704816991886" duration="598000" />
       <workItem from="1704891186143" duration="680000" />
       <workItem from="1705524082322" duration="3702000" />
-      <workItem from="1705846801558" duration="9098000" />
+      <workItem from="1705846801558" duration="9283000" />
+      <workItem from="1705932878046" duration="17713000" />
+      <workItem from="1706022809328" duration="2692000" />
+      <workItem from="1706054379410" duration="82000" />
+      <workItem from="1706054581554" duration="422000" />
     </task>
     <task id="LOCAL-00001" summary="init commit - domain &amp; utils">
       <option name="closed" value="true" />
@@ -188,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703082737826</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="splash-screen and login window initial design and functionality">
+      <option name="closed" value="true" />
+      <created>1705857149500</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705857149500</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +194,7 @@
     <MESSAGE value="init commit - domain &amp; utils" />
     <MESSAGE value="added the repo" />
     <MESSAGE value="added the service + refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the service + refactor" />
+    <MESSAGE value="splash-screen and login window initial design and functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="splash-screen and login window initial design and functionality" />
   </component>
 </project>
